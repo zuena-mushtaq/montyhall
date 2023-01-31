@@ -1,0 +1,14 @@
+Package: montyhall
+Title: Monty Hall Package
+Version: 0.0.0.9000
+Authors@R: 
+    person("Zuena", "Mushtaq", , "zuena.mushtaq@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package will run the Monty Hall game. This is a simulation of a game from a television game show called, "Let's Make a Deal". It is named after its original host, Monty Hall. The game proceeds as follows: The player gets to choose one door out of 3 doors. Behind one of the doors is a car. And the two other doors have a goat behind them. If the player picked the door with a car behind it, they get to  keep the car. To add to this game, Monty opens one of the two remaining doors with a goat behind it. Then he allows the player to either stay with their initial door that they picked or switch their door. Now comes the most important question of all - What should the player do?
+Depends: 
+   dplyr
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
